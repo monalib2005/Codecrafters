@@ -1,0 +1,108 @@
+
+body, ul {
+    margin-left: 116px;
+    padding: 0;
+    background-color: #BDE0FE;
+    overflow: hidden;
+}
+#Custom
+{
+    display: flex;
+}
+
+#right h1
+{
+    font-size:80px;
+    color:rgb(255, 0, 47);
+    font-weight:200px;
+}
+#left{
+    margin-left: 1000px;
+}
+#left h1
+{
+    font-size:80px;
+    color:rgb(255, 0, 47);
+    font-weight:200px;
+}
+#right h3{
+    font-size: 32px;
+    font-weight:100px;
+}
+#left h3{
+    font-size: 32px;
+    font-weight:100px;
+}
+.user7{
+    display: flex;
+}
+.image1
+{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 70px;
+    height:70px;
+    border-radius: 400px;
+}
+#user
+{
+    margin-left:10px;
+    display:flex;
+    width:900px;
+    height:300px;
+    background-color: rgba(244, 237, 237, 0.4);
+    justify-content: space-between;
+    margin-right:15px;
+    
+    
+}
+#user1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#user1 h3{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#user1 h4
+{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight:70;
+}
+h1
+{
+    font-size: 70px;
+    text-align: center;
+}
+#star
+{
+    font-size:25px;
+}
+#star:hover
+{
+    color:blue;
+}
+#Input
+{
+    margin-top: 70px;
+    height:50px;
+    width: 1000px;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 300px;
+
+}
+#user{
+    transition: transform 0.2s ease-in-out; /* Adjust transition as needed */
+  }
+  
+#user:hover {
+    transform:scale(0.9); /* Adjust scale factor as needed */
+}
+#what{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

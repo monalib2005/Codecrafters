@@ -1,0 +1,135 @@
+body
+{
+    background-color: #ddc2ec;
+}
+.button-container {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+#main{
+    display: flex;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.button-container button
+{
+    height:150px;
+    width:230px;
+    border:3px solid rgb(77, 77, 240);
+    border-radius:50px;
+}
+#image1
+{
+    background-image: url("icecream1.webp");
+    background-size: cover;
+    opacity: 0.75;
+    font-size:25px;
+    color: black;
+    font-weight: 900;
+}
+#image2
+{
+    background-image: url("scoop.webp");
+    background-size: cover;
+    opacity: 0.75;
+    font-size:25px;
+    color: black;
+    font-weight: 900;
+}
+#image3
+{
+    background-image: url("doogie.webp");
+    background-size: cover;
+    opacity: 0.75;
+    font-size:25px;
+    color: black;
+    font-weight: 900;
+}
+#image4
+{
+    background-image: url("core_ice.webp");
+    background-size: cover;
+    opacity: 0.75;
+    font-size:25px;
+    color: black;
+    font-weight: 900;
+}
+#image5
+{
+    background-image: url("topped.webp");
+    background-size: cover;
+    opacity: 0.75;
+    font-size:40px;
+    color: rgb(251, 247, 247);
+    font-weight: 900;
+}
+/* #image1:hover,#image2:hover,#image3:hover,#image4:hover,#image5:hover
+{
+    opacity:0.4 !important;
+} */
+.menu{
+    text-align: center;
+    /* margin-top:600px; */
+    width:50%;
+    margin-top:10px;
+    /* margin-left:200px; */
+    height:500px;
+    background-color: rgb(161, 157, 241);
+    border-radius: 20px;
+    float: inline-block;
+    padding:0px;
+}
+.img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width:250px;
+    height:200px;
+    border-radius: 50%;
+}
+.img:hover
+{
+    scale: 1.1;
+}
+.menu h4{
+    text-align: center;
+}
+.menu i:hover{
+    font-size: 40px;
+
+
+}
+.image1{
+    text-align: center;
+}
+#content
+{
+    display:flex ;
+}
+.card1
+{
+    margin-left: 300px;
+}
+
+#hr
+{
+    transform: translate(300px,300px);
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#hr1
+{
+    color: blueviolet;
+    font-size: 70px;
+    font-weight: 900;
+}
