@@ -1,5 +1,5 @@
 // animations.js
-gsap.fromTo(".ice1", { y: "100%" }, { y: 0, duration: 2, ease: "power2.out" });
+gsap.fromTo(".ice1", { y: "20%" }, { y: 0, duration: 2, ease: "power2.out" });
 gsap.from("nav ul li a",{y:30,duration:1,stagger:0.5});
 gsap.from("#logo", {
     y: -100,
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
     floatIceCreams();
   });
 
-  const timelineEvents = document.querySelectorAll('.timeline-event');
+  const timelineEvents = document.querySelectorAll('.timeline');
 
   function handleScroll() {
     timelineEvents.forEach((event, index) => {
@@ -126,4 +126,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
   
-  window.addEventListener('scroll', handleScroll);
+//   window.addEventListener('scroll', handleScroll);
+//   gsap.from(".timeline",{
+//     opacity:0,
+//     scrollTrigger:{
+//         trigger:"#right h1",
+//         start:"top 50%",
+//         scrub:true,
+//         scroller:".timeline"
+//   }})

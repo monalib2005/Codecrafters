@@ -421,15 +421,24 @@ footer .wave#wave4
 {
     margin:0px;
     padding:0px;
-    overflow-y: scroll;
-    background-color: #ffafcc;
+    /* overflow-y: scroll; */
+    background-image: url(https://www.benjerry.com/files/live/sites/systemsite/files/US%20and%20Global%20Assets/About%20Us/Factory%20Tour/tour__0002_factory_graveyard.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: center;
+    height: 1200px;
 }
 .timeline {
     position: relative;
+    top: 0;
+    left: 0;
     width: 100%;
     max-width: 3500px;
     margin: 60px auto 20px auto ;
-    height: 900px;
+    height: 1200px;
+    margin-left: 550px;
+    overflow-x: hidden;
+    
     
 
 }
@@ -456,21 +465,21 @@ footer .wave#wave4
     animation: fadeInUp 0.5s forwards; 
 }
 
-.timeline-event:nth-child(1),
+/* .timeline-event:nth-child(1),
 .timeline-event:nth-child(2),
 .timeline-event:nth-child(3),
 .timeline-event:nth-child(4),
 .timeline-event:nth-child(5),
 .timeline-event:nth-child(6) {
-    animation: none; /* Remove existing animations */
-}
+    animation: none; 
+} */
 .fadeInUp {
     animation: fadeInUp 0.5s forwards;
 }
 
 .fadeOutDown {
     animation: fadeOutDown 0.5s forwards;
-}
+} 
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -602,3 +611,4 @@ footer .wave#wave4
     width: 200px;
     height:200px;
 } */
+ 
