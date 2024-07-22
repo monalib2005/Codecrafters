@@ -1,6 +1,6 @@
 body
 {
-    background-color: #ddc2ec;
+    background-color: #3FA2F6;
 }
 .button-container {
     margin-bottom: 20px;
@@ -14,7 +14,12 @@ body
     display: block;
 }
 #main{
-    display: flex;
+    display: inline-flex;
+}
+.hr2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
 }
 .button-container{
     display: flex;
@@ -132,4 +137,85 @@ body
     color: blueviolet;
     font-size: 70px;
     font-weight: 900;
+}
+.h2:hover
+{
+    color: rgb(115, 17, 50);
+}
+.animate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-left: -220px;
+    margin-top: -220px;
+    font-family: Arial, sans-serif;
+    background-color: #3FA2F6;
+    overflow: hidden;
+    position: relative;
+    width: 1600px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'ChunkFive', sans-serif;
+    
+}
+
+.cow {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#cowImage {
+    width: 200px;
+    height: 200px;
+}
+
+.grass {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+
+.icecream 
+    {
+        position: absolute;
+    }
+    
+    .top-right {
+        top: 60px;
+        right: 40px;
+    }
+    
+    .center-right {
+        top: 15%;
+        left: 300px;
+        transform: translateY(-50%);
+    }
+    
+    .icecreamImage {
+        width: 200px;
+        height:200px;
+    }
+
+.house
+{margin-left: 75%;
+    margin-top: 30%;}
+#houseImage
+{
+    
+    height: 350px;
+    width: 350px;;
 }
