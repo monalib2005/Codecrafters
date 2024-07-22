@@ -126,12 +126,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
   
-//   window.addEventListener('scroll', handleScroll);
-//   gsap.from(".timeline",{
-//     opacity:0,
-//     scrollTrigger:{
-//         trigger:"#right h1",
-//         start:"top 50%",
-//         scrub:true,
-//         scroller:".timeline"
-//   }})
+

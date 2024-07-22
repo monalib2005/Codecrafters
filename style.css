@@ -427,6 +427,7 @@ footer .wave#wave4
     background-size: 50% auto;
     background-position: center;
     height: 1200px;
+    background-color:#ffafcc;
 }
 .timeline {
     position: relative;
@@ -438,7 +439,6 @@ footer .wave#wave4
     height: 1200px;
     margin-left: 550px;
     overflow-x: hidden;
-    
     
 
 }
@@ -596,19 +596,15 @@ footer .wave#wave4
     margin-top: 200px;
     color:red;
 }
-/* .icecream.center-right {
-    top: 15%;
-    left: 300px;
-    transform: translateY(-50%);
+.name
+{
+    display: flex;
+    justify-content: end;
+    margin-right:150px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.icecream.center-left {
-    top: 15%;
-    left: 300px;
-    transform: translateY(-50%);
+.name:hover
+{
+    color:rgb(98, 16, 29);
 }
-
-.icecreamImage {
-    width: 200px;
-    height:200px;
-} */
- 
